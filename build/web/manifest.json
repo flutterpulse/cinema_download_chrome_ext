@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "Ссылки для yt-dlp",
+    "description": "A Chrome extension powered by Flutter Web",
+    "version": "1.0",
+    "permissions": [
+        "tabs",
+        "activeTab",
+        "webRequest",
+        "webRequestBlocking",
+        "clipboardWrite"
+    ],
+
+    "action": {
+        "default_popup": "index.html"
+    },
+    "host_permissions": [
+        "https://*.friday.ru/*",
+        "http://*.friday.ru/*"
+    ]
+}
